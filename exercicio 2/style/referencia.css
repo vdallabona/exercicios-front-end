@@ -62,13 +62,6 @@ input {
     border-color: rgb(218, 216, 216);
 }
 
-.textinho {
-    font-size: 0.8rem;
-    margin-bottom: 3rem;
-    display: grid;
-    place-items: center;
-}
-
 span{
     color: rgb(143, 143, 143);
 }
