@@ -9,25 +9,26 @@
 </head>
 <body>
     <div class="geral">
-        <div class="quadrado">
-            <div>
+        <div>
+            <div class="CaixaTopo">
                 <h1>Sign In</h1>
-                <a>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente sit aut eos consectetur adipisicing.</a>
+                <a class="subTitulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente sit aut eos consectetur adipisicing.</a>
             </div>
             <form>
-                <input type="username" name="usernameLogin" id="usernameLogin" placeholder="Username">
-                <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Password">
-                <input type="checkbox" name="RememberMe" id="RememberMe">
-                <a href="style/recursos/imagem referência.jpg">Forgot Password</a>
-                <button>Login</button>
+                <input type="username" name="usernameLogin" id="usernameLogin" placeholder="Username" class="typeIn1">
+                <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Password" class="typeIn2"><br>
+                <input type="checkbox" name="RememberMe" id="RememberMe" class="checkboxCrua"><a class="checkboxLogin">Remember-me</a>
+                <a href="style/recursos/imagem referência.jpg" class="forgotPassword">Forgot Password</a>
             </form>
-            <div class="textinho">
-                <button>Login with Facebook</button>
-                <button>Login with Twitter</button>
-                <button>Login with google</button>
+            <div class="Logins">
+                <button class="LoginCru">Login</button>
+                <div class="separadorLogin"><a>- or -</a></div>
+                <button class="LoginFace">Login with Facebook</button>
+                <button class="LoginTwit">Login with Twitter</button>
+                <button class="LoginGoog">Login with google</button>
             </div>
         </div>
-        <img src="style/recursos/imagem referência.jpg" width="50%" height="100%">
+        <img src="style/recursos/imagem.jpg" class="img">
     </div>
 </body>
 </html>
