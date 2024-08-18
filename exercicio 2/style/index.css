@@ -10,7 +10,7 @@
 
 h1{
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-family: “Arial Black”, sans-serif;
     margin-bottom: 5%;
     font-weight: bold;
@@ -18,17 +18,20 @@ h1{
 
 .subTitulo{
     color: rgb(143, 143, 143);
+    font-size: 90%;
+    width: 100%;
 }
 
 .CaixaTopo{
-    margin-bottom: 10%;
-    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 0;
+    width: 45%;
 }
 
 .typeIn1{
-    width: 95%;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    width: 60%;
+    padding: 4%;
     padding-left: 10px;
     padding-right: 0;
     border-color: rgb(218, 216, 216);
@@ -36,76 +39,99 @@ h1{
     border-top-right-radius: 5px;
     border-style: solid;
     border-width: 1px;
+    font-size: 0.7rem;
 }
 
 .typeIn2{
-    width: 95%;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    width: 60%;
+    padding: 4%;
     padding-left: 10px;
     padding-right: 0;
     border-color: rgb(218, 216, 216);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
     border-style: solid;
     border-width: 1px;
     border-top: hidden;
     margin-bottom: 3%;
+    font-size: 0.7rem;
 }
 
 .checkboxCrua{
     margin: 0;
+    height: 12px;
 }
 
 .checkboxLogin{
     font-size: 0.8rem;
     margin-left: 1%;
+    font-size: 0.75rem;
 }
 
 .forgotPassword{
     float: right;
-    margin-right: 2%;
+    margin-right: 38%;
+    font-size: 0.7rem;
 }
 
 form{
-    margin-bottom: 15%;
-    margin-left: 10%;
-}
-
-.separadorLogin{
-    width: 100%;
-    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 0;
+    font-size: 0.8rem;
 }
 
 .img{
-    width: 50%;
+    width: 40%;
     height: 100vh;
-    margin-left: 6%;
     padding: 0;
 }
 
-.Logins > *{
-    width: 90%;
-    margin: 0;
-    margin-bottom: 2%;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    margin-left: 10%;
+.Logins > button{
+    width: 45%;
+    margin-bottom: 1%;
+    padding: 3%;
+    margin-left: 30%;
+    margin-right: 0;
     border-style: none;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconeSocial{
+    width: 18px;
+    height: 18px;
+
 }
 
 .LoginCru{
     background-color: #0678FA;
+    color: white;
+}
+
+.separadorLogin{
+    text-align: center;
+    width: 40%;
+    margin-bottom: 1%;
+    padding: 2%;
+    margin-left: 30%;
+    margin-right: 0;
 }
 
 .LoginFace{
     background-color: #375596;
+    color: white;
 }
 
 .LoginTwit{
-    background-color: #13A0F0;
+    background-color: rgb(80, 171, 241);
+    color: white;
 }
 
 .LoginGoog{
-    background-color: #E64136;
+    background-color: rgb(225, 47, 47);
+    color: white;
 }
