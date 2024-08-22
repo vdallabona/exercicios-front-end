@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 100%;
 }
 
 .quadrado {
@@ -13,16 +14,17 @@
     margin-bottom: 5%;
     width: 33%;
     max-width: 500px;
-    min-width: 250px;
+    max-height: 500px;
+    min-width: 200px;
     height:auto;
     border-radius: 1ch;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.textinho {
-    font-size: 0.8rem;
-    margin-bottom: 3rem;
-    display: grid;
-    place-items: center;
+.quadrado:last-child {
+    margin-left: 5%;
+    overflow-y: scroll;
 }
 
 main {
@@ -69,18 +71,30 @@ input {
     border-color: rgb(218, 216, 216);
 }
 
-span{
-    color: rgb(143, 143, 143);
-}
-
-a{
-    color: rgb(69, 69, 226);
-    text-decoration: none;
-    font-weight: bold;
-}
-
 input:focus{
     outline: none;
     border-color: purple;
     color: purple;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5%;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: slategray;
+    font-size: medium;
+    width: 90%;
+}
+
+a:first-of-type{
+    border-top-width: 1px;
+}
+
+a:hover{
+    text-shadow: 10px, 10px, 10px, black;
+    color: blueviolet;
+    font-size: large;
 }
