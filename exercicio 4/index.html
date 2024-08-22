@@ -6,41 +6,24 @@
     <title>Exercício 1</title>
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/index.css">
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
     <div class="geral">
         <div class="quadrado">
             <div>
-                <h1>Sign In</h1>
-                <a>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente sit aut eos consectetur adipisicing.</a>
+                <h1>Login</h1>
             </div>
-            <form id="FormId">
-                <input type="username" name="usernameLogin" id="usernameLogin" placeholder="Username">
+            <form id="form">
+                <input type="email" name="emailLogin" id="emailLogin" placeholder="Email">
                 <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Password">
-                <input type="checkbox" name="RememberMe" id="RememberMe">
-                <a href="style/recursos/imagem referência.jpg">Forgot Password</a>
-                <button>Login</button>
+                <button type="submit">Login</button>
             </form>
             <div class="textinho">
-                <button>Login with Facebook</button>
-                <button>Login with Twitter</button>
-                <button>Login with google</button>
+                <span>Forgot <a href="style/recursos/imagem referência.jpg">Password</a>?</span><br>
+                <span>Don't have an account? <a href="style/recursos/imagem referência.jpg">Sign up</a></span>
             </div>
         </div>
-        <img src="style/recursos/imagem referência.jpg" width="50%" height="100%">
     </div>
-    <script>
-        var elemento = document.getElementById("FormId");
-        elemento.style.backgroundColor = 'red';
-        console.log(elemento)
-
-        var h1 = document.createElement('h1');
-        h1.textContent = "texto JS";
-        elemento.append(h1);
-        h1.style.backgroundColor = 'blue';
-        elemento.append(h1);
-
-        // vale lembrar que essas 'variaveis', que a gente chama com append, são LITERALMENTE o mesmo elemento. Não dá pra chamar o mesmo item 2 vezes
-    </script>
 </body>
 </html>
